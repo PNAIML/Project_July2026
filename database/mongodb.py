@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import certifi
 try:
-    MONGO_URI = "mongodb+srv://punitectssrgsp_db_user:mongodb123@cluster0.h7lbrs1.mongodb.net/"
+    MONGO_URI = "mongodb+srv://punit541985_db_user:mongodb123@cluster0.twjwbke.mongodb.net/?appName=Cluster0"
     client = MongoClient(MONGO_URI,tls=True,tlsCAFile=certifi.where())
     client.admit.command("ping")
     db = client["ssus_project"]
